@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Title</title>
+</head>
+<body>
+<main class="container main-wrap">
+    <h1 class="color-grey-1">USERS MANAGEMENT</h1>
+    <div class="form-wrap">
+        <form class="d-flex justify-content-between color-grey-1">
+            <fieldset class="col-md-12 pl-0">
+                <input type="search" id="input-search" class="col-12 col-md-6 col-lg-7" placeholder="Search" autocomplete="off">
+                <input type="radio" id="user-name" name="user" checked>
+                <label for="user-name">Name</label>
+                <input type="radio" id="user-address" name="user">
+                <label for="user-address">Address</label>
+                <input type="radio" id="user-age" name="user">
+                <label for="user-age">Age</label>
+            </fieldset>
+        </form>
+    </div>
+    <div class="list-wrap">
+        <div class="loader">
+            <span>LOADING...</span>
+        </div>
+        <ul id="users-list">
+
+        </ul>
+    </div>
+</main>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
